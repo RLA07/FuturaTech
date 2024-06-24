@@ -1,0 +1,197 @@
+
+.box-all {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_akun {
+    margin: 50px;
+    display: flex;
+    width: 80%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.profile-akun {
+    text-align: center;
+}
+
+.profile-akun img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.edit-profile {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.menu-akun ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-akun li {
+    margin: 20px 0;
+}
+
+.menu-akun a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.menu-akun a.active {
+    color: #007bff;
+}
+
+.menu-akun a:hover {
+    color: #00a2ff;
+}
+
+.submenu {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.content {
+    padding: 20px;
+    width: 100%;
+    right: 0;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 510px;
+    padding: 20px;
+}
+
+.pp-akun {
+    width: 100%;
+    height: 330px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.pp-img {
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.pp-img img {
+    width: 240px;
+    height: 240px;
+}
+
+.pp-ubah {
+    display: flex;
+    width: 240px;
+    height: 40px;
+    margin-top: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pp-ubah:hover {
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.pp-ubah p {
+    font-size: 1em;
+}
+
+.box-keamanan {
+    width: 100%;
+    height: auto;
+}
+
+.keamanan {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.keamanan:hover {
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.rightside {
+    width: 65%;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+table tr td {
+    padding: 10px 0 10px 30px;
+}
+
+table tr td a:hover {
+    color: #00a2ff;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.7em;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

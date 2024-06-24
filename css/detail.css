@@ -1,0 +1,168 @@
+
+.container_detail {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    margin-top: 90px;
+}
+
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 30px;
+    margin: 20px;
+    margin-top: 50px;
+    overflow-x: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-details h3 {
+    color: #006de2;
+}
+
+.product-image {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 15%;
+    height: 290px;
+    padding: 40px;
+    margin-right: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-image img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.thumbnail-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail-images img {
+    width: 70px;
+    margin: 5px;
+    padding: 1px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail-images img:hover {
+    width: 70px;
+    margin: 5px;
+    padding: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 24px;
+    color: #006de2;
+}
+
+.details {
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.details p {
+    font-size: 0.9em;
+}
+
+.subtotal p {
+    font-size: 0.9em;
+}
+
+.warning {
+    color: #e60000;
+    font-weight: bold;
+}
+
+.purchase {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.purchase .quantity {
+    margin-bottom: 10px;
+}
+
+.purchase .subtotal {
+    margin-bottom: 20px;
+}
+
+.add-to-cart, .buy-now {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.buy-now {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.store {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.store-img {
+    width: 50px;
+    height: 50px;
+}
+
+.store-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.store-detail {
+    margin-left: 20px;
+}
+
+.store-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.store-info h2 {
+    font-size: 18px;
+}
+
+.store-info p {
+    margin: 5px 0;
+}
+
+.shipping-info {
+    font-size: 0.8em;
+}

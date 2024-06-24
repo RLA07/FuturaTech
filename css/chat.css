@@ -1,0 +1,244 @@
+.box-all {
+    margin-top: 100px;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-container {
+    display: flex;
+    width: 80%;
+    height: 90%;
+    padding: 1%;
+    padding-top: 0;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px #787878 ;
+}
+
+.sidebar {
+    width: 25%;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.chat-list {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.chat-pp {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.chat-pp img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+.chat-item {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.chat-item:hover {
+    background-color: #f0f0f0;
+}
+
+.chat-item.active {
+    background-color: #0072ec50;
+}
+
+.chat-penjual {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-item-content {
+    width: 80%;
+    display: flex;
+    padding-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.chat-name {
+    font-weight: bold;
+}
+
+.chat-status {
+    font-size: 0.8em;
+    color: green;
+}
+
+.chat-date {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.chat-message {
+    width: 100%;
+    margin-top: 5px;
+    color: #585858;
+}
+
+.chat-window {
+    width: 75%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.chat-header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-item {
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.chat-header .chat-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.chat-header .chat-status {
+    color: green;
+    font-size: 0.8em;
+}
+
+.chat-header .chat-last-online {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.chat-box {
+    padding: 20px;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.chat-message {
+    display: flex;
+}
+
+.chat-message.left {
+    justify-content: flex-start;
+}
+
+.chat-message.right {
+    justify-content: flex-end;
+}
+
+.message-content {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ddd;
+    position: relative;
+}
+
+.message-content p {
+    margin: 0;
+}
+
+.message-content .time {
+    font-size: 12px;
+    color: gray;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.time-right {
+    color: #363636;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.chat-message.right .message-content {
+    background-color: #d5d5d5;
+    color: #000000;
+    padding: 2%;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.chat-message.left .message-content {
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+    padding: 2%;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.chat-button {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #0072ec;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    cursor: pointer;
+    align-items: center;
+    color: #ffffff;
+}
+
+.chat-input input {
+    flex: 1;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-right: 10px;
+}

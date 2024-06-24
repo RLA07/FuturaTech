@@ -1,0 +1,135 @@
+
+.box-all {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_notif {
+    margin: 50px;
+    display: flex;
+    width: 80%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.profile-notif {
+    text-align: center;
+}
+
+.profile-notif img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.edit-profile {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.menu-notif ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-notif li {
+    margin: 20px 0;
+}
+
+.menu-notif a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.menu-notif a.active {
+    color: #007bff;
+}
+
+.menu-notif a:hover {
+    color: #00a2ff;
+}
+
+.submenu {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.content {
+    padding: 20px;
+    height: 500px;
+    width: 100%;
+    right: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.notification {
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notification img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.notif-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0;
+}
+
+.notif-item h3 {
+    font-size: 1em;
+}
+
+.notif-item p {
+    font-size: 0.9em;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.7em;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
